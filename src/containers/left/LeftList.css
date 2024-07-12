@@ -1,0 +1,10 @@
+.LeftList {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0em;
+    height: 100%;
+    max-width: 10em;
+    text-align: left;
+    background-color: white;
+}

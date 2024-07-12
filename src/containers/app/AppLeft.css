@@ -1,0 +1,35 @@
+.AppLeft-expanded {
+  margin: 0.5em;
+  border-color: #0fb822;
+  border-width: 0.2em;
+  border-style: solid;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.AppLeft-expanded td {
+  padding: 0.1em 0em;
+}
+
+.AppLeft-table {
+  display: table;
+}
+
+.AppLeft-row {
+  display: table-row;
+}
+
+.AppLeft-cell {
+  display: table-cell;
+  padding: 0.1em 0em;
+}
+
+.AppLeft-expanded a {
+  font-weight: 700;
+  color: rgb(12, 99, 12);
+  font-style: normal;
+}
+
+.AppLeft-expanded a:link {
+  text-decoration: none;
+}

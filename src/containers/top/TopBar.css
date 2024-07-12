@@ -1,0 +1,8 @@
+.TopBar {
+    margin: 0em;
+    border: 0.1em solid black;
+    display: flex;
+    flex-direction: row;
+    height: 2.5em;
+    align-items: center;
+}

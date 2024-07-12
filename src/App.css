@@ -1,5 +1,24 @@
-.App {
-  text-align: center;
+.AppCenter {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 3.5em);
+  width: 100vw;
+}
+
+.AppLeft-expanded {
+  margin: 0.5em;
+  border-color: #0fb822;
+  border-width: 0.2em;
+  border-style: solid;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.AppMiddle-left-expanded {
+  position: relative;
+  flex-wrap: wrap;
+  width: inherit;
+  padding: 0.5em;
 }
 
 .App-logo {
@@ -15,7 +34,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: calc(100vh - 5.5em);
   display: flex;
   flex-direction: column;
   align-items: center;
